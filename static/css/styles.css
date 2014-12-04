@@ -1,6 +1,43 @@
+.Header
+{
+	background-image: url(../images/portada.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-top: 3.75em;
+	text-align: center;
+	padding: 1.2em;
+}
+.Header-imageContainer
+{
+	margin: 0;
+}
+.Header-image
+{
+	border: 5px solid white;
+	border-radius: 50%;
+}
+.Header-name, .Header-link
+{
+	color: white;
+}
+.Header-name
+{
+	font-size: 1.5em;
+	margin: 0;
+	font-weight: 300;
+
+
+}
+.Header-link
+{
+	font-size: 2.2em;
+	font-weight: bold;
+	text-decoration: none;
+}
 .MainMenu
 {
-	background: rgba(44, 62, 80,1.0);
+	background: rgb(44, 62, 80);
 	height: 3.75em;
 	left: 0;
 	position: fixed;
