@@ -1,0 +1,26 @@
+.MainMenu
+{
+	background: rgba(44, 62, 80,1.0);
+	height: 3.75em;
+	left: 0;
+	position: fixed;
+	right: 0;
+	text-align: center;
+	top: 0;
+}
+.MainMenu-item
+{
+	display: inline-block;
+}
+.MainMenu-list
+{
+	margin: 0;
+	padding: 0;
+}
+.MainMenu-link	
+{
+	color: #fff;
+	text-decoration: none;
+	line-height: 3.75em;
+	margin-right: 1.5em;
+}
