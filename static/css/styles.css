@@ -1,3 +1,14 @@
+/*Utilities*/
+.u-title
+{
+	color:#4D6071;
+	font-weight: 400;
+	padding-bottom: .5em;
+	text-align: center;
+}
+
+
+/*Inicio del Header*/
 .Header
 {
 	background-image: url(../images/portada.jpg);
@@ -5,8 +16,8 @@
 	background-repeat: no-repeat;
 	background-size: cover;
 	margin-top: 3.75em;
-	text-align: center;
 	padding: 1.2em;
+	text-align: center;
 }
 .Header-imageContainer
 {
@@ -14,8 +25,8 @@
 }
 .Header-image
 {
-	border: 5px solid white;
 	border-radius: 50%;
+	border: 5px solid white;
 }
 .Header-name, .Header-link
 {
@@ -24,8 +35,8 @@
 .Header-name
 {
 	font-size: 1.5em;
-	margin: 0;
 	font-weight: 300;
+	margin: 0;
 
 
 }
@@ -35,9 +46,12 @@
 	font-weight: bold;
 	text-decoration: none;
 }
+/*Fin del Header*/
+
+/*Inicio del Main*/
 .MainMenu
 {
-	background: rgb(44, 62, 80);
+	background:#4D6071;
 	height: 3.75em;
 	left: 0;
 	position: fixed;
@@ -57,7 +71,145 @@
 .MainMenu-link	
 {
 	color: #fff;
-	text-decoration: none;
 	line-height: 3.75em;
 	margin-right: 1.5em;
+	text-decoration: none;
 }
+/*Fin del Main*/
+
+/*Inicio del Profile*/
+.Profile
+{
+	text-align: center;
+}
+.Profile-link-1
+{
+	background: #007FAE;
+	color: white;
+	margin-right: .5em;
+	padding: .5em 1em;
+	text-decoration: none;
+
+}
+.Profile-link-2
+{
+	background: #425F9C;
+	color: white;
+	margin-right: .5em;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+.Profile-link-3
+{
+	background: #202021;
+	color: white;
+	margin-right: .5em;
+	padding: .5em 1em;
+	text-decoration: none;
+}
+/*Fin del Profile*/
+
+/*Inicio de Work*/
+.Work
+{
+	margin-top: 2em;
+	text-align: center;
+
+}
+.Work-item
+{
+	display: inline-block;
+	margin-bottom: 1.8em;
+	margin-right: 1.8em;
+}
+.Work-imageDescription
+{
+	color: #515151;
+	font-size: 1.1em;
+	font-style: italic;
+}
+.Work-imageContainer
+{
+	margin: 0;
+}
+/*Fin de Work*/
+
+/*Inicio de Footer*/
+.Footer
+{
+	background-image: url(../images/footer.jpg);
+	background-repeat:no-repeat;
+	background-size: cover;
+	padding: 2em 0;
+    text-align: center;
+}
+.Footer-button
+{
+    background: orange;
+	border-radius: .5em;
+    border: none;
+    color: white;
+    padding: .5em 1em;
+}
+.Footer-form
+{ 
+	text-align: center;
+    display: inline-block;
+
+}
+.Footer-left
+{
+    display: inline-block;
+    width: 32em;
+    text-align: center;
+    vertical-align: top;
+
+}
+.Footer-formImput,
+.Footer-textArea
+{
+	background: white;
+	border: none;
+	display: block;
+	margin: 0 auto 1em;
+	border-radius: .5em;
+	padding: .5em;
+    margin: 0 auto 1em;
+
+}
+.Footer-textArea
+{
+	resize:none;
+}
+.Footer-title
+{
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
