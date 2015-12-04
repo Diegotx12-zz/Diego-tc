@@ -7,4 +7,4 @@ Diestro una mescla de Strata by HTML5 UP y algunos detalles agregados por mi. Di
 
 Primeros Cambios agregados el dia 
 
-Miercoles 4 de Febrero del 2015
+Miercoles 4 de Febrero del 2015 comensamos con el clasico esquema de html5
